@@ -2511,6 +2511,11 @@ body[data-layout-mode=dark] .service .info-item {
     animation: translate 10s linear infinite
 }
 
+@media(max-width: 768px) {
+    .shape-2, .shape-3, .shape-1{
+        display: none;
+    }
+}
 .shape-3 {
     position: absolute;
     animation: translatescale 4s linear infinite;
